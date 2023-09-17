@@ -1,0 +1,51 @@
+/* EditQuote.scss */
+
+.edit-quote {
+    text-align: center;
+  
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    .quote-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .form-group {
+        margin-bottom: 16px;
+        text-align: left;
+  
+        .form-label {
+          display: block;
+          font-size: 16px;
+          margin-bottom: 8px;
+        }
+  
+        .form-input {
+          width: 100%;
+          padding: 8px;
+          font-size: 16px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          outline: none;
+        }
+      }
+  
+      .submit-button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+  

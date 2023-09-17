@@ -1,0 +1,15 @@
+/* Quotes.scss */
+
+.quotes {
+    display: flex;
+    flex-wrap: wrap; /* Enable flex wrapping */
+    padding: 16px;
+  
+    h1 {
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 16px;
+      width: 100%; /* Ensure the title spans the full width */
+    }
+  }
+  
