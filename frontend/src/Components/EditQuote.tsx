@@ -6,7 +6,7 @@ import { mockQuotes } from './mockData';
 import './EditQuote.scss'; // Import the SCSS file
 
 interface Quote {
-  id: number;
+  _id: number;
   name: string;
   expiryDate: string;
   status: 'valid' | 'expired';
@@ -16,7 +16,7 @@ interface Quote {
 }
 
 function fetchQuoteDataById(id: number) {
-  const quote = mockQuotes.find((q) => q.id === id);
+  const quote = mockQuotes.find((q) => q._id === id);
   return Promise.resolve(quote);
 }
 
@@ -25,7 +25,7 @@ const EditQuote: React.FC = () => {
 
   // Define the initial quote data state with default values
   const [quoteData, setQuoteData] = useState<Quote>({
-    id: 0, // Provide an initial value for id
+    _id: 0, // Provide an initial value for id
     name: '',
     expiryDate: '',
     status: 'valid', // Provide an initial value for status

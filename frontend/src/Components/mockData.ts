@@ -1,6 +1,6 @@
 export const mockQuotes = [
     {
-      id: 1,
+      _id: 1,
       name: 'Quote 1',
       expiryDate: '2023-12-31',
       status: "valid" as "valid",
@@ -9,7 +9,7 @@ export const mockQuotes = [
       tables: [],
     },
     {
-      id: 2,
+      _id: 2,
       name: 'Quote 2',
       expiryDate: '2024-06-30',
       status: "valid" as "valid",
@@ -18,7 +18,7 @@ export const mockQuotes = [
       tables: [],
     },
     {
-      id: 3,
+      _id: 3,
       name: 'Quote 3',
       expiryDate: '2021-03-10',
       status: "valid" as "valid",
@@ -27,7 +27,7 @@ export const mockQuotes = [
       tables: [],
     },
     {
-      id: 4,
+      _id: 4,
       name: 'Quote 4',
       expiryDate: '2022-09-20',
       status: "valid" as "valid",
@@ -36,7 +36,7 @@ export const mockQuotes = [
       tables: [],
     },
     {
-      id: 5,
+      _id: 5,
       name: 'Quote 5',
       expiryDate: '2022-09-20',
       status: "valid" as "valid",
@@ -45,7 +45,7 @@ export const mockQuotes = [
       tables: [],
     },
     {
-      id: 6,
+      _id: 6,
       name: 'Quote 6',
       expiryDate: '2022-09-20',
       status: "valid" as "valid",

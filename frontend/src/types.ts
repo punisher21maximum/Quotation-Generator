@@ -1,7 +1,8 @@
 // src/types.ts
 
 export type Quote = {
-    id: number;
+    _id: number;
+    // id: number;
     name: string;
     expiryDate: string; // Use a string for simplicity (you can parse it to Date if needed)
     status: 'valid' | 'expired';
